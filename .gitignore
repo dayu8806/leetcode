@@ -1,0 +1,36 @@
+# 在 .gitignore 裡指定要排除（ignore）的內容，意思是告訴 Git 「這些檔案／資料夾不要納入版本控制，也不要顯示在 git status 的未追蹤清單裡」。這通常用在：
+
+# 編譯出來的中間檔
+
+# Python 的 __pycache__/、.pyc、.pyo
+
+# C/C++、Java 等編譯後的二進位或類別檔（*.class、*.o、*.exe）
+
+# IDE 或編輯器設定檔
+
+# VS Code：.vscode/
+
+# IntelliJ／PyCharm：.idea/
+
+# 作業系統自動產生的隱藏檔
+
+# macOS：.DS_Store
+
+# Windows：Thumbs.db
+
+# 虛擬環境或依賴資料夾
+
+# Python virtualenv：venv/、env/
+
+# Node.js 的 node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# IDE
+.vscode/
+.idea/
+
+# MacOS
+.DS_Store
