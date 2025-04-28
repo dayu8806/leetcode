@@ -7,6 +7,13 @@
 leetcode/
 ├── README.md
 ├── arrays/
+│   ├── 278.first bad veraion.py
 │   └── 1146.Snapshot Array.py
+├── binary tree/
+│   ├── 98.validate-binary-search-tree.py
+│   ├── 106.construct-binary-tree.py
+│   ├── 112.path-sum.py
+│   ├── 124.binary-tree-maximum-path-sum.py
+│   └── 671.second-minimum-node-in-a-binary-tree.py
 
 
