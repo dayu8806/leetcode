@@ -1,0 +1,24 @@
+https://neetcode.io/quiz/pytorch-training
+
+code:
+model_prediction = model(images)
+optimizer.zero_grad()
+loss = loss_function(model_prediction, labels)
+loss.background()
+optimizer.step()
+
+What would happen if you called optimizer.zero_grad() after calling loss.backward() in a training loop?
+    No weights would be change after calling step()
+
+What happens inside PyTorch when loss.backward() is called?
+    Derivatives for each weight for gradient descent are calculated
+
+What happens inside PyTorch when optimizer.step() is called?
+    The weights are updated based on the update rule and current learning rate
+
+When would you use the cross entropy loss function?
+    For a language model that predicts the next word in a sentence among a fixed vocabulary
+    For a classification model that predicts whether an email is Spam or Legitimate
+
+What is the algorithm inside optimizer = torch.optim.Adam()?
+    Gradient Descent

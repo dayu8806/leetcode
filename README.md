@@ -18,3 +18,9 @@ leetcode/
 │   └── 671.second-minimum-node-in-a-binary-tree.py
 ├── interview/
 │   ├── 98.validate-binary-search-tree.py
+├── Neetcode_ML /
+│   ├── gradient-descent.py
+│   ├── linear-regression-forward.py
+│   ├── linear-regression-training.py
+│   ├── basics-of-pytorch.py
+│   ├── pytorch-training.py
