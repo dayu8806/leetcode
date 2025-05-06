@@ -16,11 +16,17 @@ leetcode/
 │   ├── 124.binary-tree-maximum-path-sum.py
 │   ├── 515.find-largest-value-in-each-tree-row.py
 │   └── 671.second-minimum-node-in-a-binary-tree.py
+├── Dynamic_programming/
+│   ├── 45.jump-game-ii.py
+│   ├── 322.coin-change.py
 ├── interview/
-│   ├── 98.validate-binary-search-tree.py
+│   ├── 345.reverse-vowels-of-a-string.py
 ├── Neetcode_ML /
 │   ├── gradient-descent.py
 │   ├── linear-regression-forward.py
 │   ├── linear-regression-training.py
 │   ├── basics-of-pytorch.py
-│   ├── pytorch-training.py
+│   ├── pytorch-training
+
+
+
